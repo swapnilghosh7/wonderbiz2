@@ -6,7 +6,7 @@ function LaunchDashboardBox(props) {
   // console.log(props);
   return (    
             <div className="launchDashboardBox">
-              <span className="launchDashboardBoxMessage">{props.launchDashboardBoxData}</span>
+              <span className="launchDashboardBoxTitle">{props.launchDashboardBoxData + ' Launches'} </span>
               <span className="launchDashboardBoxMessage">{props.number}</span>
             </div>
   );

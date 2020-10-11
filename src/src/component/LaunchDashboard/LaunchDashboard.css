@@ -2,3 +2,15 @@
 .launchDashboardBoxMainWrap{
     display: flex;
 }
+.launchDashboardWrap{
+    background: #fff;
+    box-shadow: 2px 2px 10px #ccc;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    /* padding: 20px; */
+}
+.launchDashboard{
+    padding: 20px;
+    /* border-bottom: 1px solid #ccc; */
+    box-shadow: 0px 0px 5px #ccc;
+}
