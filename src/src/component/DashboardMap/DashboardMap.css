@@ -1,0 +1,7 @@
+.dashboardMapWrap{
+    max-width: 600px;
+    min-width: 600px;
+}
+.launchDashboardBoxMainWrap{
+    display: flex;
+}
