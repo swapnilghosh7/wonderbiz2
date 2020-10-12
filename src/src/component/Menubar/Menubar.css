@@ -4,6 +4,7 @@
     position: fixed;
     background: linear-gradient(to bottom,#16a88f,#95c93f);
     transition: all 1s;
+    color: #fff;
 }
 .menuBarButton{
     position: absolute;
