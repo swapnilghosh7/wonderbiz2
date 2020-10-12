@@ -2,11 +2,22 @@
     background: #f2f4f5;
     flex-grow: 1;
     padding: 20px;
+    padding-left: 320px;
 }
 
 .dashboardMapWrapper{
     display: flex;
+    flex-wrap: wrap;
 }
 .dashboardMapWrapper>div{
     flex-grow: 1;
+    min-width: 500px;
+    margin: 30px 20px;
+}
+@media(max-width: 1024px)
+{
+    .analyticsDashboardWrap{
+        padding-left: 20px;
+    }
+
 }

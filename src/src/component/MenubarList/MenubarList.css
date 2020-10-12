@@ -16,9 +16,7 @@
     background: black;
     display: none;
 }
-.menuBarContentWrap{
-    padding: 20px;
-}
+
 @media(max-width:1024px)
 {
     .menubarwrapper{

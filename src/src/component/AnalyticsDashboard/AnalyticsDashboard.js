@@ -49,10 +49,7 @@ function AnalyticsDashboard() {
     })
   }
 
-  // function processBarChartData(){
-  //   // var uniqueYear =  [...new Set(data.dashboardData[2].map(item => item.launch_year))]; 
-  //   console.log(bardata);
-  // }
+
 
   useEffect(() => {
     fetchData();
@@ -60,11 +57,6 @@ function AnalyticsDashboard() {
 
   }, [])
 
-  // useEffect(() => {
-
-  //   processBarChartData();
-  // }, [bardata])
-  
   return (
       <>  
         <div className="analyticsDashboardWrap">

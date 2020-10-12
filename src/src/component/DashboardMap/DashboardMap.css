@@ -1,7 +1,7 @@
 .dashboardMapWrap{
-    max-width: 600px;
-    min-width: 600px;
-    max-height: 500px;
+    /* max-width: 600px;
+    min-width: 600px; */
+    max-height: 450px;
 }
 .launchDashboardBoxMainWrap{
     display: flex;
@@ -10,7 +10,14 @@
 
     background: #fff; 
     box-shadow: 2px 2px 10px #ccc;
-    padding: 20px;
+    /* padding: 20px; */
     border-radius: 6px;
     margin-right: 30px;
+}
+.launchpadLocationHeadingWrap{
+    padding: 20px;
+    box-shadow: 1px 1px 5px #ccc;
+}
+.dashboardMapWrap{
+    padding: 20px;
 }

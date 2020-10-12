@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import './DashboardTimeline.css';
 
 
@@ -9,7 +9,9 @@ function DashboardTimeline(props) {
   return (
     
       <div className="dashboardTimelineWrap">
-
+            <div className="dashboardTimelineHeadingWrap">
+              <h4 className="dashboardTimelineHeading">Launch Timeline</h4>
+            </div>
             <div className="dashboardTimeline">
               <ul className="dashboardTimelineList">
                 {props.timelineData && props.timelineData['all'].map((data) => {

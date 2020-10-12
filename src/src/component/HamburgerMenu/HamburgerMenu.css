@@ -1,0 +1,131 @@
+
+#navBarButton{
+    color: #fff;
+    position: absolute;
+    right: 0px;
+}
+#navBarButton:focus,#navBarButton:active{
+    border:none;
+    outline: none;
+}
+.hamburgerWrap{
+    position: relative;
+    min-height: 40px;
+}
+.menuListItem{
+    padding: 25px 15px;
+    margin: 15px 0;
+    cursor: pointer;
+    font-size: 36px;
+    font-weight: 600;
+    color: #fff;
+}
+.menuListItem a{
+    text-decoration: none;
+    color: #ff5638;
+}
+.menuListItem:hover, .menuListItem a:hover{
+    color: #000;
+}
+
+.menuListWrap{
+    height: 100vh;
+    align-items: center;
+}
+
+.navBarHamburgerWrapper{
+    height: 35px;
+    width: 30px;
+    position: relative;
+}
+#navBarContentWrap{
+    padding-top: 30px;
+}
+button#navBarButton.navbar-toggler .navBarLine{
+    display: block;
+    width: 40px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #ed1c24;
+    margin: 7px 0;
+    transition: all 0.3s linear 0s;
+}
+
+
+
+button#navBarButton.navbar-toggler[aria-expanded="true"] .navBarLine:first-child{
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+}
+button#navBarButton.navbar-toggler[aria-expanded="true"] .navBarLine:nth-child(2){
+ opacity: 0;
+ transform: translateX(20px);
+
+}
+button#navBarButton.navbar-toggler[aria-expanded="true"] .navBarLine:last-child{
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 50%;
+}
+/* Media Query */
+
+@media only screen and (max-width: 991px) {
+    .navBarWrap {
+        position: relative;
+    }
+    .menuListWrap{
+        align-items: flex-end;
+    }
+    .menuListItem:last-child {
+        padding-left: 15px;
+    }
+    .menuListItem {
+        padding: 5px 15px;
+        cursor: pointer;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .logoWrap{
+        /* background-size: cover; */
+        width: 170px;
+        height: 60px;
+    }
+    .navBarWrap{
+        padding: 0px;
+    }
+}
+
+
+.navBarHamburgerWrapper{
+    height: 35px;
+    width: 30px;
+    position: relative;
+}
+button#navBarButton.navbar-toggler .navBarLine{
+    display: block;
+    width: 40px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #fff;
+    margin: 7px 0;
+    transition: all 0.3s linear 0s;
+}
+
+
+
+button#navBarButton.navbar-toggler[aria-expanded="true"] .navBarLine:first-child{
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+}
+button#navBarButton.navbar-toggler[aria-expanded="true"] .navBarLine:nth-child(2){
+ opacity: 0;
+ transform: translateX(20px);
+
+}
+button#navBarButton.navbar-toggler[aria-expanded="true"] .navBarLine:last-child{
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 50%;
+}

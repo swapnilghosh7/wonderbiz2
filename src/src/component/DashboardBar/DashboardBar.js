@@ -22,7 +22,6 @@ function DashboardBar(props) {
 
       dataArray.push(temparray.length);
     })
-    console.log(dataArray);
     setBarData({'barData' : dataArray});
    
   }
@@ -53,12 +52,13 @@ function DashboardBar(props) {
   return (
     
       <div className="dashboardBarWrap">
-
+            <div className="dashboardBarGraphHeadingWrap">
+              <h4 className="dashboardGraphHeading">Launches Per Year</h4>
+            </div>
             <div className="dashboardBar">
               <canvas id="dashboardGraphbar" width="500" height="500"></canvas>
             </div>
-            
-  
+             
       </div>
     
   );
